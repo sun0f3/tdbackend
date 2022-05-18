@@ -1,0 +1,8 @@
+cucumber
+apple
+dog
+potato
+apple
+cap
+hat
+cat
