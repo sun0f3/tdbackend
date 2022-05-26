@@ -1,6 +1,8 @@
 # http_server.rb
 require 'socket'
 server = TCPServer.new 5678
+
+print "listening on port 5678"
  
 while session = server.accept
   request = session.gets
