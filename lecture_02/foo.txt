@@ -1,0 +1,7 @@
+puts("hello")
+
+a = 1
+
+c = b + a
+
+puts a
