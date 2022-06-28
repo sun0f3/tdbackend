@@ -1,0 +1,4 @@
+<form action="/users" method="post"><input name="note" placeholder="your note"/>
+ <input type="submit"/>
+<form action="/users" method="post"><input name="note" placeholder="your note"/>
+ <input type="submit"/>
