@@ -1,0 +1,9 @@
+<h1>Casino</h1>
+
+<h2>Balance: <%= @balance %></h2>
+
+<h3><%= @random %></h3>
+<div>
+    <form action="/casino/hit?less=1" method="post"><button>Less</button></form>
+    <form action="/casino/hit" method="post"><button>More</button></form>
+</div>

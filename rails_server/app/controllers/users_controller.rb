@@ -3,6 +3,8 @@ class UsersController < ApplicationController
 
   # GET /users or /users.json
   def index
+    Rails.logger.debug('******** SOMETHING HAPPENED')
+    Rails.logger.info('******** SOMETHING HAPPENED')
     @users = User.all
   end
 
@@ -21,6 +23,9 @@ class UsersController < ApplicationController
 
   # POST /users or /users.json
   def create
+    puts '*************'
+    puts user_params
+    puts '*************'
     @user = User.new(user_params)
 
     respond_to do |format|
