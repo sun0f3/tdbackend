@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   def index
     Rails.logger.debug('******** SOMETHING HAPPENED')
     Rails.logger.info('******** SOMETHING HAPPENED')
+    cookies[:events] = cookies[:events].to_s + "-users"
     @users = User.all
   end
 

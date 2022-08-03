@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get  'casino', to: 'casino#index'
   post 'casino/hit', to: 'casino#hit'
 
+  get 'contacts', to: 'page#qwe'
   # Defines the root path route ("/")
   # root "articles#index"
 end

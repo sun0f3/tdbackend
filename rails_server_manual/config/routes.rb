@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root("users#qwe")
 
-  get '/users', to: 'users#index'
+  get '/users', to: 'users#index', as: 'users'
   get '/tasks', to: 'tasks#index'
 end
